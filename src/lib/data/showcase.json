@@ -1,0 +1,80 @@
+[
+  {
+    "id": "misterlapino-discord-bot",
+    "title": {
+      "en": "Misterlapino Discord Bot",
+      "fr": "Discord Bot de Misterlapino"
+    },
+    "category": "bot",
+    "description": {
+      "en": "A tailored discord bot that fetches streamelements widget data to display user collection of cards.",
+      "fr": "Un bot discord personnalisé qui récupère les données du widget streamelements pour afficher la collection de cartes de l'utilisateur."
+    },
+    "image": "https://storage.vgen.co/uploads/2871e786-e9af-4a36-918f-03cce750d0e0/verified/1I1EENBSNHXK/5a035d0d-ddc0-4641-8c7d-81c1a2433b1f.webp",
+    "tags": [
+      "Discord",
+      "TypeScript",
+      "StreamElements API"
+    ],
+    "url": ""
+  },
+  {
+    "id": "diversy-backend",
+    "title": {
+      "en": "Diversy Backend (WIP)",
+      "fr": "Backend Diversy (En cours)"
+    },
+    "category": "backend",
+    "description": {
+      "en": "A work in progress all-in-one social network backend or instance",
+      "fr": "Un backend / instance en cours d'un réseau social intégral"
+    },
+    "image": "",
+    "tags": [
+      "API",
+      "Hono",
+      "Typescript",
+      "DrizzleORM"
+    ],
+    "url": "https://github.com/anthromeda/diversy-server"
+  },
+  {
+    "id": "michal-bot",
+    "title": {
+      "en": "StreamFeed Discord Bot",
+      "fr": "Bot Discord StreamFeed"
+    },
+    "category": "bot",
+    "description": {
+      "en": "A bot that periodically fetches Twitch API for Czech streamers and display them as online or offline.",
+      "fr": "Un bot discord qui récupère périodiquement les données de l'API Twitch pour les streamers tchèques et les affiche en ligne ou hors ligne."
+    },
+    "image": "https://i.imgur.com/FFXuOAW.png",
+    "tags": [
+      "Discord",
+      "Typescript",
+      "Prisma ORM",
+      "Twitch API"
+    ],
+    "url": ""
+  },
+  {
+    "id": "lotus-bot",
+    "title": {
+      "en": "Lotus Bot",
+      "fr": "Lotus Bot"
+    },
+    "category": "bot",
+    "description": {
+      "en": "A Discord bot with many features (economy, moderation, shop, minigames, etc.) for a guild with 1.3k+ members..",
+      "fr": "Un bot Discord avec de nombreuses fonctionnalités (économie, modération, boutique, mini-jeux, etc.) pour un serveur avec plus de 1.3k membres."
+    },
+    "tags": [
+      "Discord",
+      "Typescript",
+      "Prisma ORM"
+    ],
+    "url": "",
+    "image": "https://storage.vgen.co/uploads/2871e786-e9af-4a36-918f-03cce750d0e0/verified/4BZEEKS9FHSC/7ac5af28-038e-4832-8458-edb0c7967617.webp"
+  }
+]

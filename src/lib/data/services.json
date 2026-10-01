@@ -1,0 +1,53 @@
+[
+  {
+    "slug": "websites",
+    "category": "website",
+    "name": { "en": "Website", "fr": "Site web" },
+    "tagline": { "en": "Fast, clean and accessible websites.", "fr": "Des sites rapides, sobres et accessibles." },
+    "description": {
+      "en": "From a one-page presence to a full custom site, built with modern tooling and designed to be easy to maintain.",
+      "fr": "De la simple page de présentation au site sur mesure, conçu avec des outils modernes et facile à maintenir."
+    },
+    "price": 20,
+    "hours": 5,
+    "delivery": { "en": "2–4 weeks", "fr": "2 à 4 semaines" },
+    "features": {
+      "en": ["Responsive design", "SEO basics", "Contact form", "Hosting setup", "30 days of support"],
+      "fr": ["Design adaptatif", "Bases du SEO", "Formulaire de contact", "Mise en place de l'hébergement", "30 jours de support"]
+    }
+  },
+  {
+    "slug": "discord-bots",
+    "category": "bot",
+    "name": { "en": "Discord Bot", "fr": "Bot Discord" },
+    "tagline": { "en": "Custom bots for your community.", "fr": "Des bots sur mesure pour votre communauté." },
+    "description": {
+      "en": "Moderation, economy, tickets, music or anything specific to your server, with clear commands and reliable hosting.",
+      "fr": "Modération, économie, tickets, musique ou toute fonction propre à votre serveur, avec des commandes claires et un hébergement fiable."
+    },
+    "price": 20,
+    "hours": 0,
+    "delivery": { "en": "1–3 weeks", "fr": "1 à 3 semaines" },
+    "features": {
+      "en": ["Slash commands", "Database storage", "Admin configuration", "Deployment guide", "30 days of support"],
+      "fr": ["Commandes slash", "Stockage en base de données", "Configuration admin", "Guide de déploiement", "30 jours de support"]
+    }
+  },
+  {
+    "slug": "backends",
+    "category": "backend",
+    "name": { "en": "Backend", "fr": "Backend" },
+    "tagline": { "en": "APIs and services that stay out of your way.", "fr": "Des API et services qui font leur travail sans se faire remarquer." },
+    "description": {
+      "en": "REST or realtime APIs, authentication, databases and integrations, documented and tested.",
+      "fr": "API REST ou temps réel, authentification, bases de données et intégrations, documentées et testées."
+    },
+    "price": 20,
+    "hours": 5,
+    "delivery": { "en": "3–6 weeks", "fr": "3 à 6 semaines" },
+    "features": {
+      "en": ["REST / WebSocket API", "Authentication", "Database design", "API documentation", "30 days of support"],
+      "fr": ["API REST / WebSocket", "Authentification", "Conception de base de données", "Documentation de l'API", "30 jours de support"]
+    }
+  }
+]

@@ -1,0 +1,102 @@
+:root {
+  --white: #fbfaf8;
+  --surface: #ffffff;
+  --pink: #f8e1e7;
+  --pink-strong: #e9b5c4;
+  --blue: #dcebf5;
+  --blue-strong: #a9c9de;
+  --text: #3d4450;
+  --muted: #7a8391;
+  --border: #ebe6e8;
+  --radius: 14px;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  overflow-wrap: anywhere;
+  background: var(--white);
+  color: var(--text);
+  font-family: system-ui, -apple-system, 'Segoe UI', sans-serif;
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  font-weight: 600;
+  line-height: 1.25;
+  margin: 0 0 .5rem;
+}
+
+a {
+  color: inherit;
+}
+
+.container {
+  max-width: 1040px;
+  margin-inline: auto;
+  padding: 2rem 1rem;
+
+  @media (min-width: 640px) {
+    padding: 3rem 1.25rem;
+  }
+}
+
+.grid {
+  display: grid;
+  gap: 1.25rem;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 260px), 1fr));
+}
+
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.btn {
+  display: inline-block;
+  padding: .6rem 1.2rem;
+  border-radius: 999px;
+  background: var(--pink);
+  border: 1px solid var(--pink-strong);
+  color: var(--text);
+  text-decoration: none;
+  font: inherit;
+  cursor: pointer;
+  transition: background .15s;
+
+  &:hover {
+    background: var(--pink-strong);
+  }
+
+  &.alt {
+    background: var(--blue);
+    border-color: var(--blue-strong);
+
+    &:hover {
+      background: var(--blue-strong);
+    }
+  }
+}
+
+.badge {
+  display: inline-block;
+  padding: .1rem .65rem;
+  border-radius: 999px;
+  background: var(--blue);
+  font-size: .8rem;
+}
+
+.muted {
+  color: var(--muted);
+}

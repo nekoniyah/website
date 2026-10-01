@@ -1,0 +1,331 @@
+{
+  "tiers": {
+    "low": 3,
+    "medium": 6,
+    "high": 9,
+    "extra": 4
+  },
+  "features": [
+    {
+      "id": "reaction-roles",
+      "categories": [
+        "bot"
+      ],
+      "tier": "medium",
+      "price": 6,
+      "hours": 1,
+      "label": {
+        "en": "Reaction Roles",
+        "fr": "Rôles par réaction"
+      },
+      "description": {
+        "en": "Add and remove reaction roles to specific message in chosen channel.",
+        "fr": "Ajoute et retire des rôles via les réactions sur un message précis dans le salon choisi."
+      },
+      "maxQuantity": 5
+    },
+    {
+      "id": "starboard",
+      "categories": [
+        "bot"
+      ],
+      "tier": "low",
+      "price": 3,
+      "hours": 1,
+      "label": {
+        "en": "Starboard",
+        "fr": "Starboard"
+      },
+      "description": {
+        "en": "React to message with star emoji up to chosen amount to pin the message in chosen channel.",
+        "fr": "Réagissez avec l'émoji étoile jusqu'au seuil choisi pour épingler le message dans le salon choisi."
+      }
+    },
+    {
+      "id": "ticketing",
+      "categories": [
+        "bot"
+      ],
+      "tier": "low",
+      "price": 3,
+      "hours": 1,
+      "label": {
+        "en": "Ticketing",
+        "fr": "Tickets"
+      },
+      "description": {
+        "en": "Message panel with button in chosen channels to create private channels into chosen category with mod role.",
+        "fr": "Panneau avec bouton dans les salons choisis pour créer des salons privés dans la catégorie choisie, avec le rôle modérateur."
+      },
+      "maxQuantity": 3
+    },
+    {
+      "id": "welcomer",
+      "categories": [
+        "bot"
+      ],
+      "tier": "low",
+      "price": 3,
+      "hours": 1,
+      "label": {
+        "en": "Welcomer",
+        "fr": "Messages d'accueil"
+      },
+      "description": {
+        "en": "Send HTML-to-webp banners with Takumi in chosen channel for guildMemberAdd and guildMemberRemove events.",
+        "fr": "Envoie des bannières HTML-vers-webp avec Takumi dans le salon choisi lors des arrivées et départs de membres."
+      }
+    },
+    {
+      "id": "sticky-messages",
+      "categories": [
+        "bot"
+      ],
+      "tier": "low",
+      "price": 3,
+      "hours": 1,
+      "label": {
+        "en": "Sticky Messages",
+        "fr": "Messages épinglés (sticky)"
+      },
+      "description": {
+        "en": "Registered message content in database to send as embed in chosen channel each time new message is sent. (Also removes last sticky message)",
+        "fr": "Contenu du message enregistré en base de données, renvoyé en embed dans le salon choisi à chaque nouveau message. (Supprime aussi le précédent sticky)"
+      },
+      "maxQuantity": 5
+    },
+    {
+      "id": "random-meme",
+      "categories": [
+        "bot"
+      ],
+      "tier": "low",
+      "price": 3,
+      "hours": 1,
+      "label": {
+        "en": "Random Meme",
+        "fr": "Mème aléatoire"
+      },
+      "description": {
+        "en": "Send random gif or image as embed among list in database or via public websites.",
+        "fr": "Envoie un gif ou une image aléatoire en embed, depuis une liste en base de données ou des sites publics."
+      },
+      "maxQuantity": 3
+    },
+    {
+      "id": "sticky-roles",
+      "categories": [
+        "bot"
+      ],
+      "tier": "low",
+      "price": 3,
+      "hours": 1,
+      "label": {
+        "en": "Sticky Roles",
+        "fr": "Rôles persistants"
+      },
+      "description": {
+        "en": "Registered roles ID in database; when member with registered role leaves and re-join, the role is automatically re-added.",
+        "fr": "Identifiants de rôles enregistrés en base de données ; un membre qui quitte puis revient récupère automatiquement ces rôles."
+      }
+    },
+    {
+      "id": "currency",
+      "categories": [
+        "bot"
+      ],
+      "tier": "medium",
+      "price": 6,
+      "hours": 1,
+      "label": {
+        "en": "Currency System",
+        "fr": "Système de monnaie"
+      },
+      "description": {
+        "en": "Adds purse for each member in database. Required for some features to function.",
+        "fr": "Ajoute une bourse pour chaque membre en base de données. Requis pour certaines fonctionnalités."
+      }
+    },
+    {
+      "id": "shop",
+      "categories": [
+        "bot"
+      ],
+      "tier": "high",
+      "price": 9,
+      "hours": 1,
+      "requires": [
+        "currency"
+      ],
+      "label": {
+        "en": "Shop",
+        "fr": "Boutique"
+      },
+      "description": {
+        "en": "Adds slash command to send embed with select menu and item list, plus button to buy selected item. Requires Currency System.",
+        "fr": "Ajoute une commande slash envoyant un embed avec menu déroulant et liste d'objets, plus un bouton d'achat. Nécessite le système de monnaie."
+      }
+    },
+    {
+      "id": "minigame",
+      "categories": [
+        "bot"
+      ],
+      "tier": "high",
+      "price": 9,
+      "hours": 1,
+      "label": {
+        "en": "Minigame",
+        "fr": "Mini-jeu"
+      },
+      "description": {
+        "en": "Adds slash command to run mini game the client described to code.",
+        "fr": "Ajoute une commande slash lançant un mini-jeu décrit par le client."
+      },
+      "maxQuantity": 5
+    },
+    {
+      "id": "extra-pages",
+      "categories": [
+        "website"
+      ],
+      "tier": "low",
+      "price": 3,
+      "hours": 1,
+      "label": {
+        "en": "Extra page",
+        "fr": "Page supplémentaire"
+      },
+      "maxQuantity": 20
+    },
+    {
+      "id": "blog",
+      "categories": [
+        "website"
+      ],
+      "tier": "low",
+      "price": 3,
+      "hours": 1,
+      "label": {
+        "en": "Blog",
+        "fr": "Blog"
+      }
+    },
+    {
+      "id": "i18n",
+      "categories": [
+        "website"
+      ],
+      "tier": "medium",
+      "price": 6,
+      "hours": 1,
+      "label": {
+        "en": "Multilingual",
+        "fr": "Multilingue"
+      }
+    },
+    {
+      "id": "cms",
+      "categories": [
+        "website"
+      ],
+      "tier": "high",
+      "price": 9,
+      "hours": 2,
+      "label": {
+        "en": "Content management (CMS)",
+        "fr": "Gestion de contenu (CMS)"
+      }
+    },
+    {
+      "id": "oauth",
+      "categories": [
+        "website",
+        "backend"
+      ],
+      "tier": "medium",
+      "price": 6,
+      "hours": 1,
+      "label": {
+        "en": "Discord login (OAuth)",
+        "fr": "Connexion Discord (OAuth)"
+      }
+    },
+    {
+      "id": "payments",
+      "categories": [
+        "website",
+        "backend"
+      ],
+      "tier": "high",
+      "price": 9,
+      "hours": 2,
+      "label": {
+        "en": "Online payments",
+        "fr": "Paiement en ligne"
+      }
+    },
+    {
+      "id": "realtime",
+      "categories": [
+        "backend"
+      ],
+      "tier": "medium",
+      "price": 6,
+      "hours": 1,
+      "label": {
+        "en": "Realtime (WebSocket)",
+        "fr": "Temps réel (WebSocket)"
+      }
+    },
+    {
+      "id": "admin-panel",
+      "categories": [
+        "backend"
+      ],
+      "tier": "high",
+      "price": 9,
+      "hours": 2,
+      "label": {
+        "en": "Admin panel",
+        "fr": "Panneau d'administration"
+      }
+    },
+    {
+      "id": "hosting",
+      "categories": [
+        "website",
+        "bot",
+        "backend"
+      ],
+      "tier": "extra",
+      "price": 4,
+      "hours": 1,
+      "label": {
+        "en": "3 Month Hosting",
+        "fr": "Hébergement 3 mois"
+      },
+      "maxQuantity": 8
+    },
+    {
+      "id": "custom",
+      "categories": [
+        "website",
+        "bot",
+        "backend"
+      ],
+      "tier": "high",
+      "price": 9,
+      "hours": 5,
+      "label": {
+        "en": "Custom Feature",
+        "fr": "Fonctionnalité sur mesure"
+      },
+      "description": {
+        "en": "A feature specific to your needs, priced per request.",
+        "fr": "Une fonctionnalité propre à vos besoins, chiffrée à la demande."
+      },
+      "maxQuantity": 10
+    }
+  ]
+}

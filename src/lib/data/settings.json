@@ -1,0 +1,26 @@
+{
+  "brand": "Anthromeda",
+  "siteUrl": "https://anthromeda.shop",
+  "ogImage": "",
+  "currency": "EUR",
+  "contactEmail": "contact@anthromeda.shop",
+  "hoursPerDay": 5,
+  "minimumPrice": 20,
+  "company": {
+    "legalName": "Plume – Anthromeda",
+    "legalForm": {
+      "en": "Sole proprietorship (micro-entrepreneur)",
+      "fr": "Entreprise individuelle (micro-entrepreneur)"
+    },
+    "siret": "99027336900027",
+    "address": [
+      "32T les Quatre Chemins",
+      "44640 Rouans",
+      "France"
+    ],
+    "vat": {
+      "en": "VAT not applicable, art. 293 B of the CGI",
+      "fr": "TVA non applicable, art. 293 B du CGI"
+    }
+  }
+}
